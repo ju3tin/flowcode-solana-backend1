@@ -17,6 +17,4 @@ app.get('/health', (req, res) => {
         status: 'UP',
     });
 });
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
-});
+
