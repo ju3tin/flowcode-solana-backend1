@@ -36,7 +36,5 @@ app.get('/health', (req, res) => {
     res.status(200).json({ message: 'Server is running' });
 });
 app.use(errorHandler_1.errorHandler);
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+
 exports.default = app;
